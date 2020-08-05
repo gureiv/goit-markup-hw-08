@@ -1,0 +1,36 @@
+.footer-studio {
+  color: $footer-color;
+  font-style: normal;
+  margin-top: 0;
+}
+.footer-addres p {
+  margin-bottom: 9px;
+}
+.footer-logo {
+  display: inline-block;
+  font-family: $font-logo;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-bottom: 8px;
+}
+.footer-addres {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.cotacs-details {
+  display: inline-block;
+  margin-left: auto;
+  margin-bottom: 8px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.mail2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}

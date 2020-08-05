@@ -1,0 +1,47 @@
+.site-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 85px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  display: flex;
+  padding-left: 0;
+}
+.link-current {
+  position: relative;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: $main-color;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background-color: $main-color;
+    border-radius: 2px;
+  }
+}
+.link {
+  display: block;
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: $title-color;
+  transition: color $animation;
+  &:hover,
+  &:focus {
+    color: $main-color;
+  }
+}
+.link-list {
+  min-width: 49px;
+  margin-right: 50px;
+  &:last-child {
+    margin-right: 0;
+  }
+}

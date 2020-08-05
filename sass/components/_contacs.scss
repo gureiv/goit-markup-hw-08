@@ -1,0 +1,32 @@
+.contacs {
+  margin-left: auto;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  & .contac + .contac {
+    margin-left: 30px;
+  }
+}
+.contac {
+  display: flex;
+  align-items: center;
+  min-width: 161px;
+  height: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: $text-color;
+  cursor: pointer;
+  transition: color $animation;
+  &:hover,
+  &:focus {
+    color: $main-color;
+  }
+}
+.icon-eleph,
+.icon-telep {
+  margin-right: 10px;
+  --color3: currentColor;
+}
